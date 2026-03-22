@@ -56,16 +56,16 @@ public static void inputAndProcess() {
 
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("Введіть текст: ");
+    System.out.print("Enter the text: ");
     String text = scanner.nextLine();
 
-    System.out.print("Введіть перший символ: ");
+    System.out.print("Enter the first character: ");
     char a = scanner.next().charAt(0);
 
-    System.out.print("Введіть другий символ: ");
+    System.out.print("Enter the second character: ");
     char b = scanner.next().charAt(0);
 
     String result = removePart(text, a, b);
 
-    System.out.println("Результат: " + result);
+    System.out.println("Result: " + result);
 }
